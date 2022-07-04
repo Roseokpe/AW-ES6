@@ -1,4 +1,4 @@
-export const displayBooks = (list) => {
+const displayBooks = (list) => {
   let tr = '';
   let sn = 1;
   list.forEach((item) => {
@@ -13,3 +13,5 @@ export const displayBooks = (list) => {
   });
   document.getElementById('tbody').innerHTML = tr;
 };
+
+export default displayBooks;

@@ -1,6 +1,6 @@
-import { submitForm } from './modules/submit-form.js';
-import { getLocalStorageData } from './modules/load-store.js';
-import { deleteBooks } from './modules/delete-books.js';
+import submitForm from './modules/submit-form.js';
+import getLocalStorageData from './modules/load-store.js';
+import deleteBooks from './modules/delete-books.js';
 
 const listMenu = document.querySelector('#list-menu');
 const formMenu = document.querySelector('#form-menu');

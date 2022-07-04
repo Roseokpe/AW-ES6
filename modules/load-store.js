@@ -1,6 +1,6 @@
-import { displayBooks } from './display-books.js';
+import displayBooks from './display-books.js';
 
-export const getLocalStorageData = (awesomeBook) => {
+const getLocalStorageData = (awesomeBook) => {
   const data = JSON.parse(localStorage.getItem('bookdata'));
   if (data != null && data.length > 0) {
     awesomeBook.style.display = 'block';
@@ -9,3 +9,5 @@ export const getLocalStorageData = (awesomeBook) => {
     awesomeBook.style.display = 'none';
   }
 };
+
+export default getLocalStorageData;
