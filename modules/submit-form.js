@@ -1,6 +1,6 @@
-import getLocalStorageData from './load-store.js';
+import { getLocalStorageData } from './load-store.js';
 
-export default function (title, author, bookList, awesomeBook) {
+export const submitForm = (title, author, bookList, awesomeBook) => {
   const data = JSON.parse(localStorage.getItem('bookdata'));
   if (data != null && data.length > 0) {
     bookList = data;
@@ -12,4 +12,4 @@ export default function (title, author, bookList, awesomeBook) {
   document.getElementById('book-form').submit();
   getLocalStorageData(awesomeBook);
   window.location.reload(true);
-}
+};

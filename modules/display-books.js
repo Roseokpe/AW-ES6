@@ -1,4 +1,4 @@
-export default function (list) {
+export const displayBooks = (list) => {
   let tr = '';
   let sn = 1;
   list.forEach((item) => {
@@ -12,4 +12,4 @@ export default function (list) {
     sn += 1;
   });
   document.getElementById('tbody').innerHTML = tr;
-}
+};
