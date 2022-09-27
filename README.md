@@ -15,43 +15,51 @@
 
 [Live Demo Link]( https://roseokpe.github.io/AW-ES6/)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+Basic knowledge of HTML, CSS, and JavaScript.
+
+## Getting Started
+To get a local copy up and running, follow the steps in Setup below.
+
+### Prerequisites
+Basic knowledge of HTML, CSS, and JavaScript.
 
 ### Setup
+If you installed git you can clone the code to your machine.
+
+```bash
+git clone https://github.com/Roseokpe/AW-ES6.git
+```
+
+- Once the files are on your machine, open the Portfolio folder in [Visual Studio Code](https://code.visualstudio.com/)
+
+- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 ### Install
 
-### Usage
+The following tools help make easier to work with sample code.
 
-### Run tests
-
-### Deployment
-
+- [git](https://git-scm.com/downloads): A tool for managing source code
+- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
 
 
 ## Authors
 
-👤 **Author1**
+👤 **ROSE OKPE**
 
-- GitHub: [@roseokpe](https://github.com/roseokpe)
-- Twitter: [@roseokpe](https://twitter.com/roseokpe)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rose-okpe-0334b5177/)
+- [Github](https://github.com/roseokpe)
+- [Twitter](https://twitter.com/roseokpe)
+- [LinkedIn](https://www.linkedin.com/in/roseokpe/)
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]https://github.com/Roseokpe/AW-ES6/issues).
+Feel free to check the [issues page](https://github.com/Roseokpe/AW-ES6/issues).
 
 ## Show your support
 
